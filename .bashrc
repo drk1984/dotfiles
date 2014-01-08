@@ -223,6 +223,8 @@ if [ -s ~/.nvm/nvm.sh ]; then
     nvm use v0.10.24 &> /dev/null # silence nvm use; needed for rsync
 fi
 
+# Ensure emacs colors are available in both normal term & GNU screen
+export TERM='xterm-color'
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
