@@ -216,6 +216,7 @@ export NODE_DISABLE_COLORS=1
 
 # This line moved here from .profile to fix login loop
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+
 if [ -s ~/.nvm/nvm.sh ]; then
     NVM_DIR=~/.nvm
     source ~/.nvm/nvm.sh
